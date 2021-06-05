@@ -128,22 +128,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4417972675689765526, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
   m_PrefabInstance: {fileID: 8817170380848112418}
   m_PrefabAsset: {fileID: 0}
---- !u!70 &184611445
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184611441}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
-  m_Direction: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,18 +553,6 @@ PrefabInstance:
     - target: {fileID: 4417972675689765526, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7293339735230015650, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
-      propertyPath: dragFactor
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7293339735230015650, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
-      propertyPath: minimumDrag
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7293339735230015650, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
-      propertyPath: dragEquation
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}

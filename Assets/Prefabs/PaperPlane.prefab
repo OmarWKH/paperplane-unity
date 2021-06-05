@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7707173282632436966}
   - component: {fileID: 2471446838239720970}
   - component: {fileID: 7293339735230015650}
+  - component: {fileID: 3851410413293828983}
   m_Layer: 0
   m_Name: PaperPlane
   m_TagString: Untagged
@@ -119,3 +120,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveMagnitude: 1.5
   rotationMagnitude: 50
+  dragFactor: 1
+  minimumDrag: 15
+  dragEquation: 3
+--- !u!70 &3851410413293828983
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4417972675689765526}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1, y: 1}
+  m_Direction: 1
