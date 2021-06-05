@@ -558,6 +558,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 161392192939384046, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4417972675689765526, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
       propertyPath: m_Name
       value: PaperPlane
@@ -565,6 +569,18 @@ PrefabInstance:
     - target: {fileID: 4417972675689765526, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293339735230015650, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
+      propertyPath: dragFactor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293339735230015650, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
+      propertyPath: minimumDrag
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293339735230015650, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
+      propertyPath: dragEquation
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 489a0b7d59d9b3041832d0c7433a447d, type: 3}
